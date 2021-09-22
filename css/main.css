@@ -1,0 +1,925 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;  
+    margin: 0 auto;
+}
+
+
+
+
+.menu-principal {
+    width: 100%; /*largura do elemento*/
+    background-color: rgb(0, 0, 0); /*cor dofundo do elemento*/
+    height: 90px;
+}
+
+.logolink{
+    margin-left: 170px;
+}
+
+
+#logoelfs{
+    position: relative; /*como o elemento é posicionado na página*/
+} 
+
+#logoclothes{
+    position: relative; /*como o elemento é posicionado na página*/
+    margin-top: 30px;
+    left: -10px;
+} 
+
+.pesquisa{
+    margin-top: -52px;
+}
+
+.pesquisa input{
+    background-color: rgb(26, 26, 26);
+    border: none;
+    width: 700px;
+    height: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 420px;
+
+}
+.pesquisacelular{
+    display: none;
+}
+
+#textopes {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
+
+
+.botaopes{
+    position: relative;
+    height: 21px;
+    background-color: rgb(26, 26, 26);
+    border: 2px solid rgb(36, 36, 36);
+    cursor: pointer;
+    padding: 5px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.cadastro{
+    position: absolute;
+    margin-left: 1280px;
+    margin-top: -40px;
+}
+#cadastrotext{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 15px;
+    top: 2px;
+    color: #ffffff;
+    margin-left: 45px;
+    max-height:36px ;
+    width: 150px;
+}
+
+
+
+.ameidiv{
+    position: relative;
+    top: -40px;
+    left: 1515px;
+    text-decoration: none;
+
+
+}
+
+.carrinhodiv{
+    position: relative;
+    top: -38px;
+    margin-left: 1550px;
+}
+
+
+/*barra de tarefas*/
+#texto:focus{
+    border: sollid 2px #00bac6;
+    color: #efefef;
+}
+.header-2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barratarefas { /*barra de divisão*/
+    height: 40px;
+    border-bottom: 3px solid #efefef; 
+
+}
+.barratarefas ul li{
+    display: inline-block; /*se o elemento é exibido e o espaço é reservado para ele*/
+    color: rgb(255, 255, 255);
+}
+.barratarefas ul li + li{
+    margin-left: 135px;
+
+    
+}
+.barratarefas ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;/*tamanho da fonte.*/
+    text-transform: uppercase;
+    padding: 1.1em 0;
+}
+.barratarefas ul li a:hover{
+    color: #00bac6;
+}
+.barratarefas ul li a:hover::after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #00bac6;
+    margin: 18.5px auto;
+}
+
+.carrossel{
+    top: 5px;
+    max-width: 120em;
+    height: 25em;
+    max-height: 25em;
+    position: relative;
+
+
+}
+.carrossel img{
+    opacity: 0;
+    position: absolute;
+    max-width: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+    
+}
+.carrossel img.imagemcarrossel{
+    opacity: 1;
+}
+
+
+.destaque1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.promocoessemana{
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+.promocao1{
+    clear: both;
+    overflow:hidden;
+    width: 486px;
+    height: 864px;
+    margin-top: 2em;
+    margin-left: 150px;
+}
+
+.promocao1 img{
+    position: relative;
+    width: 486px;
+    height: 864px;
+}
+.promocaodasemana{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 25%;
+    margin-top: -12em;
+    color: #efefef;
+    max-width: 12.75em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.apartir{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    margin-left: 42%;
+    font-size: 15px;
+    color: #d3d3d3 ;
+
+}
+.precopromocao1{
+    position: relative;
+    margin-top: 1em;
+    left: 44.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d3d3d3;
+}
+.botaopromo1{
+    position: relative;
+    margin-top: 1.8em;
+    margin-left: 165px;
+}
+.btnprom1{
+    padding: 8px 40px;
+    border: solid 2px white;
+    font-size: 1.25em;
+    color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+
+.promocoescard{
+    overflow:hidden;
+    margin-top: -864px;
+    margin-left: 728px;
+    max-width: 1060px;
+    height: 870px;
+    display: table;
+}
+.p{
+    width: 260px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-right: 90px;
+}
+.p .descricaop p{
+    text-decoration: line-through;
+    margin-top: 5px;
+}
+.p .descricaop h3{
+    margin-top: 5px;
+}
+.p .descricaop h5{
+    margin-top: 5px;
+}
+.imgp{
+    position: relative;
+    border-radius: 10px;
+
+}
+.descricaop{
+    margin-top: -15px;
+    margin-left: 5px;
+}
+.imagemp{
+    position: relative;
+    width: 250px;
+    height: 240px;
+    overflow: hidden;
+}
+.imgp{
+    width: 250px;
+    height: 240px;
+}
+.ameip{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    top: -13px;
+    opacity: 0.5;
+}
+.ameip:hover{
+    transition: 0.5s;
+    opacity: 1;
+
+}
+.avlp{
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: -6px;
+}
+
+
+.p1{
+    position: relative;
+    width: 250px;
+    height: 390px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+
+}
+.p1:hover{
+    box-shadow: 2px 2px 2px 1px rgba(153, 153, 153, 0.4);
+}
+.interior1{
+    overflow:hidden;  
+}
+.ameip1{
+    width: 20px;
+    height: 20px;
+}
+.desconto1{
+    position: relative;
+    border: 2px solid red;
+    font-size: 20px;
+    display: inline-block;
+    color: red;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+
+
+.p2{
+    position: relative;
+    width: 250px;
+    height: 390px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+
+
+}
+.p2:hover{
+    box-shadow: 2px 2px 2px 1px rgba(153, 153, 153, 0.4);
+}
+.interior2{
+    overflow:hidden;  
+}
+.ameip2{
+    width: 20px;
+    height: 20px;
+}
+.desconto2{
+    position: relative;
+    border: 2px solid red;
+    font-size: 20px;
+    display: inline-block;
+    color: red;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+
+
+.p3{
+    position: relative;
+    width: 250px;
+    height: 390px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+
+
+}
+.p3:hover{
+    box-shadow: 2px 2px 2px 1px rgba(153, 153, 153, 0.4);
+}
+.interior3{
+    overflow:hidden;  
+}
+.ameip3{
+    width: 20px;
+    height: 20px;
+}
+.desconto3{
+    position: relative;
+    border: 2px solid red;
+    font-size: 20px;
+    display: inline-block;
+    color: red;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+
+
+.p4{
+    position: relative;
+    width: 250px;
+    height: 390px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+
+
+}
+.p4:hover{
+    box-shadow: 2px 2px 2px 1px rgba(153, 153, 153, 0.4);
+}
+.interior4{
+    overflow:hidden;  
+}
+.ameip4{
+    width: 20px;
+    height: 20px;
+}
+.desconto4{
+    position: relative;
+    border: 2px solid red;
+    font-size: 20px;
+    display: inline-block;
+    color: red;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+
+
+
+.p5{
+    position: relative;
+    width: 250px;
+    height: 390px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+    
+
+}
+.p5:hover{
+    box-shadow: 2px 2px 2px 1px rgba(153, 153, 153, 0.4);
+}
+.interior5{
+    overflow:hidden;  
+}
+.ameip5{
+    width: 20px;
+    height: 20px;
+}
+.desconto5{
+    position: relative;
+    border: 2px solid red;
+    font-size: 20px;
+    display: inline-block;
+    color: red;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+
+
+.p6{
+    position: relative;
+    width: 250px;
+    height: 390px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+
+}
+.p6:hover{
+    box-shadow: 2px 2px 2px 1px rgba(153, 153, 153, 0.4);
+}
+.interior6{
+    overflow:hidden;  
+}
+.ameip6{
+    width: 20px;
+    height: 20px;
+}
+.desconto6{
+    position: relative;
+    border: 2px solid red;
+    font-size: 20px;
+    display: inline-block;
+    color: red;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+
+.textofertadiaria{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.3em;
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+.subtextofertadiaria{
+    color: rgb(58, 58, 58);
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.ofertadiaria{
+    text-align: center;
+}
+.oftdiaria{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.rodape{
+    overflow:hidden;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+
+}
+
+.logorodape{
+    width: 150px;
+    height: 150px;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 30px;
+    text-align: center;
+}
+#logoelfsrodape{
+    position: relative;
+}
+#logoclothesrodape{
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+.redes-sociais {
+    filter: invert(90%);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 280px;
+
+}
+.redes-sociais ul li {
+    filter: sepia(100%);
+    margin-left: 20px;
+    display: inline-block;
+    list-style: none;
+    
+}
+.textrodape{
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media (max-width: 1370px){
+    .menu-principal {
+        height: 80px;
+    }
+    
+    .logolink{
+        margin-left: 70px;
+    }
+    
+    #logoclothes{
+        margin-top: 20px;
+
+    } 
+    
+    .pesquisa{
+        margin-top: -50px;
+    }
+    
+    .pesquisa input{
+        width: 520px;
+        height: 35px;
+        margin-left: 305px;
+    
+    }
+    
+    #textopes {
+        font-size: 15px;
+    }
+    
+
+    .botaopes{
+        height: 21px;
+    }
+    
+    
+    .cadastro{
+        margin-left: 920px;
+        margin-top: -40px;
+    }
+    #cadastrotext{
+        font-size: 13px;
+        top: 4px;
+        max-height:36px ;
+        width: 150px;
+    }
+    
+    
+    
+    .ameidiv{
+        top: -40px;
+        left: 1140px;
+    
+    
+    }
+    .carrinhodiv{
+        top: -38px;
+        margin-left: 1180px;
+    }
+
+    
+    /*barra de tarefas*/
+    .header-2 {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .barratarefas { /*barra de divisão*/
+        height: 30px;
+    }
+
+    .barratarefas ul li + li{
+        margin-left: 100px;
+    }
+    .barratarefas ul li a{
+        font-size: 16px;/*tamanho da fonte.*/
+        padding: 1.1em 0;
+    }
+    .barratarefas ul li a:hover::after {
+
+        width: 50px;
+        height: 2px;
+        margin: 13px auto;
+    }
+
+
+    .destaque1 {
+        margin-top: -90px;
+    }
+    .promocoessemana{
+        margin: 0 auto;
+        font-size: 1.7em;
+    }
+
+    
+    .promocao1{
+        width: 486px;
+        height: 864px;
+        margin-top: 2em;
+        margin-left: 75px;
+    }
+    .promocao1 img{
+        height: 650px;
+        width:  460px;
+        margin-top: 1em;
+    }
+    .promocaodasemana{
+        max-width: 12.75em;
+        margin-left: -10px;
+    }
+    .apartir{
+        margin-top: 1em;
+        left: -10px;
+    
+    }
+    .precopromocao1{
+        margin-top: 1em;
+        margin-left: -10px;
+    }
+
+    
+    
+    
+
+    .promocoescard{
+        display: block;
+        margin-top: -848px;
+        margin-left: 630px;
+        max-width: 695px;
+        height: 620px;
+        padding: 0px 0px 40px 0px;
+        
+    }
+    .p{
+        width: 190px;
+        height: 310px;
+        margin-bottom: 30px;
+        margin-right: 30px;
+    }
+
+    .imgp{
+        max-width: 180px;
+        max-height: 170px; 
+    }
+    .descricaop{
+        margin-top: -85px;
+        margin-left: 5px;
+    }
+    .descricaop h2{
+        font-size: 20px;
+    }
+    .descricaop p{
+        font-size: 15px;
+    }
+    .descricaop h3{
+        font-size:  18px;
+    }
+    .descricaop h5{
+        font-size: 12px;
+    }
+    .avlp{
+        height: 100px;
+        width: 100px;
+        margin-top: -25px;
+        margin-bottom: 10px;
+        margin-left: -6px;
+    }
+
+
+    .p1{
+        width: 180px;
+        height: 300px;
+    }
+    .desconto1{
+        font-size: 15px;
+        top: 5px;
+        right: 5px;
+
+    }
+
+
+    .p2{
+        width: 180px;
+        height: 300px;
+    }
+    .ameip2{
+        width: 20px;
+        height: 20px;
+    }
+    .desconto2{
+        font-size: 15px;
+        top: 5px;
+        right: 5px;
+
+    }
+
+    .p3{
+        width: 180px;
+        height: 300px;
+    }
+    .ameip3{
+        width: 20px;
+        height: 20px;
+    }
+    .desconto3{
+        font-size: 15px;
+        top: 5px;
+        right: 5px;
+
+    }
+
+    .p4{
+        width: 180px;
+        height: 300px;
+    }
+    .ameip4{
+        width: 20px;
+        height: 20px;
+    }
+    .desconto4{
+        font-size: 15px;
+        top: 5px;
+        right: 5px;
+
+    }
+    .p5{
+        width: 180px;
+        height: 300px;
+    }
+    .ameip5{
+        width: 20px;
+        height: 20px;
+    }
+    .desconto5{
+        font-size: 15px;
+        top: 5px;
+        right: 5px;
+
+    }
+    .p6{
+        width: 180px;
+        height: 300px;
+    }
+    .ameip6{
+        width: 20px;
+        height: 20px;
+    }
+    .desconto6{
+        font-size: 15px;
+        top: 5px;
+        right: 5px;
+    }
+
+
+
+    .textofertadiaria{
+        margin-bottom: 0.3em;
+        font-size: 2em;
+    }
+    .subtextofertadiaria{
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+    .ofertadiaria{
+        text-align: center;
+    }
+    .oftdiaria{
+        max-width: 100%;
+        height: 300px;
+    }
+
+
+    .rodape{
+        overflow:hidden;
+        width: 100%;
+        height: 300px;
+        background-color: black;
+        margin-top: 50px;
+    
+    }
+    
+    .logorodape{
+        width: 150px;
+        height: 150px;
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+    #logoelfsrodape{
+        position: relative;
+    }
+    #logoclothesrodape{
+        top: -50px;
+        left: 100px;
+    }
+    .redes-sociais {
+        filter: invert(90%);
+        margin-top: 50px;
+        margin-left: 280px;
+    
+    }
+    .redes-sociais ul li {
+        margin-left: 20px;
+        
+    }
+    .textrodape{
+        margin-top: 10px;
+        font-size: 1.5em;
+        color: white;
+        text-align: center;
+    }
+    
+}
+
+@media ( max-width: 800px){
+    .menu-principal {
+        height: 60px;
+    }
+    
+    .logolink{
+        margin-left: 10px;
+    }
+    #logoelfs{
+        top: -10px;
+        width:60px;
+        height: 50px;
+    } 
+    
+    #logoclothes{
+        top: -5px;
+        left: -5px;
+        width:90px;
+        height: 40px;
+    } 
+    .pesquisacelular{
+        display: contents;
+    }
+    .pesquisa{
+        display: block;
+    }
+}
